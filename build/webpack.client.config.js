@@ -1,6 +1,7 @@
 const webpack = require("webpack");
 const imports = require("./imports");
 const VueSsrClientPlugin = require("vue-server-renderer/client-plugin");
+const path = require("path");
 
 
 module.exports = {
